@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Store list</title>
+</head>
+
+<body>
+    <div class="store__wrapper">
+        <aside class="sidebar">
+            <header class="header__top">
+                <p class="sidebar__title">Store list </p>
+            </header>
+            <section class="stores-list__wrapper">
+                <div class="store__search-block">
+                    <input id="store__search" type="search" placeholder="Search" name="search">
+                    <button class="btn__search"><img src="./images/search.png" alt="search" title="search">
+                    </button>
+                    <button class="btn__refresh"><img src="./images/refresh.png" alt="refresh" title="refresh"></button>
+                </div>
+                <button class="store-btn-up" type="button"></button>
+                <button class="store-btn-thumbtack" type="button"></button>
+            </section>
+            <ul class="sidebar__list">
+            </ul>
+            <footer class="footer__sidebar">
+                <button id="btn__create">Create </button>
+            </footer>
+        </aside>
+        <section class="store__details">
+            <p class="details__title">Store details </p>
+<section class="header__top-details">
+    <div class="header__details">
+        <div class="details__contact">
+            <p><span class="span">Email:</span></p>
+            <p><span class="span">Phone Number:</span>650.029.9794 x6382</p>
+            <p><span class="span">Address:</span>MA, New, 3002 Daugherty Park</p>
+        </div>
+        <div class="details__data">
+            <p><span class="span">Established Date:</span>Dec 20, 2018</p>
+            <p><span class="span">Floor Area:</span>8082</p>
+        </div>
+    </div>
+</section>
+<main>
+    <section class="filter__bar">
+        <button class="btn-up" type="button"></button>
+        <button class="btn-thumbtack" type="button"></button>
+        <div class="bar__item">
+            <span class='line'></span>
+            <span class="span-menu">100</span>
+            <span class="span-subtitle">All</span>
+        </div>
+        <div class="bar__item">
+            <button id="btn__ok">
+                <p class="number__ok">50</p>
+                <p class="btn-text">Ok</p>
+            </button>
+        </div>
+        <div class="bar__item">
+            <button id="btn__storage">
+                <p class="number__storage">30</p>
+                <p class="btn-text-storage">Storage</p>
+            </button>
+        </div>
+        <div class="bar__item">
+            <button id="btn__stock">
+                <p class="number__out">20</p>
+                <p class="btn-text-out">Out of stock</p>
+            </button>
+        </div>
+    </section>
+    <section class="content-details">
+        <div class="table-container">
+        <table class="table">
+            <caption>Products</caption>
+            <thead>
+                <tr>
+                    <th id="prod__name">Name</th>
+                    <th id="prod__price">Price</th>
+                    <th id="prod__spec">Specs</th>
+                    <th id="prod__info">SuplierInfo</th>
+                    <th id="prod__country">Country of origin</th>
+                    <th id="prod__company">Prod. company</th>
+                    <th id="prod__rating">Rating</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+            </tbody>
+        </table>
+        </div>
+</main>
+<footer class="footer__details">
+    <div class="btn__group">
+        <button id="btn__add" type="button">Create</button><button id="delete" type="reset">Delete</button>
+    </div>
+</footer>
+</section>`
+        </section>
+    </div>
+    <script defer src="data.js"></script>
+    <script defer src="main.js"></script>
+</body>
+
+</html>
